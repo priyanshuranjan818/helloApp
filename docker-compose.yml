@@ -2,8 +2,8 @@ version: "3.9"
 
 services:
   web:
-    image: haxx616/helloappV2-web:latest
-    container_name: helloappV2-web
+    image: haxx616/helloappv2-web:latest
+    container_name: helloappv2-web
     ports:
       - "8000:8000"
     environment:
